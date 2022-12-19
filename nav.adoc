@@ -1,1 +1,1 @@
-/data/projects/AxonIQ/websites/reference-guide/modules/ROOT/nav.adoc
+modules/ROOT/nav.adoc
