@@ -1,0 +1,31 @@
+= Axon Spring Cloud Extension
+
+The release notes section for the Axon Spring Cloud Extension for all major/minor releases.
+
+|===
+| Release Type | Version
+
+| _*Major*_
+| link:rn-springcloud-major-releases.md#release-46[4.6]
+
+|
+| link:rn-springcloud-major-releases.md#release-45[4.5]
+
+|
+| link:rn-springcloud-major-releases.md#release-44[4.4]
+
+|
+| link:rn-springcloud-major-releases.md#release-43[4.3]
+
+|
+| link:rn-springcloud-major-releases.md#release-42[4.2]
+
+|
+| link:rn-springcloud-major-releases.md#release-41[4.1]
+
+|
+| link:rn-springcloud-major-releases.md#release-40[4.0]
+
+| _*Minor*_
+| link:rn-springcloud-minor-releases.md#release-43[4.3]
+|===

@@ -1,0 +1,22 @@
+= Axon Reactor Extension
+
+The release notes section for the Axon Reactor Extension for all major/minor releases.
+
+|===
+| Release Type | Version
+
+| _*Major*_
+| link:rn-reactor-major-releases.md#release-46[4.6]
+
+|
+| link:rn-reactor-major-releases.md#release-45[4.5]
+
+|
+| link:rn-reactor-major-releases.md#release-44[4.4]
+
+| _*Minor*_
+| link:rn-reactor-minor-releases.md#release-45[4.5]
+
+|
+| link:rn-reactor-minor-releases.md#release-44[4.4]
+|===

@@ -1,0 +1,16 @@
+= Axon Kotlin Extension
+
+The release notes section for the Axon Kotlin Extension for all major/minor/other releases.
+
+|===
+| Release Type | Version
+
+| _*Major*_
+| link:rn-kotlin-experimental-releases.md#release-46[4.6]
+
+| _*Experimental*_
+| link:rn-kotlin-experimental-releases.md#release-02[0.2]
+
+|
+| link:rn-kotlin-experimental-releases.md#release-01[0.1]
+|===

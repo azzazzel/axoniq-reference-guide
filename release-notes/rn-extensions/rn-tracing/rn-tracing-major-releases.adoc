@@ -1,0 +1,91 @@
+= Major Releases
+
+This page notes all enhancements and features that we have introduced to our major releases of the Axon Tracing Extension.
+
+== Release 4.6
+
+If you're curious about the dependency upgrades made in this release we refer to https://github.com/AxonFramework/extension-tracing/releases/tag/axon-tracing-4.6.0[this] page.
+
+=== Features
+
+* Adds support for Streaming Query https://github.com/AxonFramework/extension-tracing/pull/280[#280]
+* TracingQueryGateway does not implement streamingQuery https://github.com/AxonFramework/extension-tracing/issues/279[#279]
+
+=== Enhancements
+
+* Change how Sonar is invoked for GHAs https://github.com/AxonFramework/extension-tracing/pull/228[#228]
+* Splitted builds into pr and not pr, also added ghactions to dependabot https://github.com/AxonFramework/extension-tracing/pull/155[#155]
+* Validate OpenTelemetry API https://github.com/AxonFramework/extension-tracing/issues/90[#90]
+
+=== Bug Fixes
+
+* Fix sonar build in PRs https://github.com/AxonFramework/extension-tracing/pull/273[#273]
+* Correct application run command to match jar name https://github.com/AxonFramework/extension-tracing/pull/205[#205]
+* Added project reactor as provided scope https://github.com/AxonFramework/extension-tracing/pull/144[#144]
+
+=== Contributors
+
+We'd like to thank all the contributors who worked on this release!
+
+* https://github.com/smcvb[@smcvb]
+* https://github.com/Morlack[@Morlack]
+* https://github.com/pasquatch913[@pasquatch913]
+* https://github.com/lfgcampos[@lfgcampos]
+* https://github.com/schananas[@schananas]
+
+== Release 4.5
+
+* Contributor `aupodogov` provided an optimization in the `OpenTraceHandlerInterceptor`, by replace an `orElse` for `orElseGet`, in pull request https://github.com/AxonFramework/extension-tracing/pull/103[#103].
+* We introduced a sample module that shows how to use this extension.
+You can find the module https://github.com/AxonFramework/extension-tracing/tree/master/tracing-axon-example[here].
+* Spring Boot ordering sometimes didn't wire the tracing gateways.
+To solve this, we enforced the ordering through an `AutoConfigureBefore` annotation on the `TracingAutoConfiguration`.
+We marked this under issue https://github.com/AxonFramework/extension-tracing/issues/105[#105] and solved it in https://github.com/AxonFramework/extension-tracing/pull/106[this] pull request.
+
+We refer to the 4.5 https://github.com/AxonFramework/extension-tracing/releases/tag/axon-tracing-4.5[release notes] for a complete list of all changes.
+
+== Release 4.4
+
+* Pull request https://github.com/AxonFramework/extension-tracing/pull/78[#78] introduces an enhancement for users of this extension.
+With the `MessageTagBuilderService` they have more configuration options for selecting the desired tags per message type.
+* When using Spring Boot, the gateway bean names this extension builds clashed with Axon Frameworks default `CommandGateway` and `QueryGateway` beans.
+Contributor `guilhermeblanco` marked this in issue https://github.com/AxonFramework/extension-tracing/issues/79[#79], which we resolved in pull request https://github.com/AxonFramework/extension-tracing/pull/86[#86].
+
+You can find a list of all changes made in release 4.4 https://github.com/AxonFramework/extension-tracing/issues?q=is%3Aclosed+milestone%3A%22Release+4.4%22[here].
+
+== Release 4.3
+
+* Pull request https://github.com/AxonFramework/extension-tracing/pull/33[#33] introduces tracing for scatter-gather and subscription queries.
+This introduction means that we can make a full release of the Axon Tracing Extension.
+* Traces for query messages now have tags included.
+We also introduced additional test cases to validate the entire process, as seen in https://github.com/AxonFramework/extension-tracing/pull/42[this] issue.
+
+For a complete list of all changes, we refer to https://github.com/AxonFramework/extension-tracing/issues?q=is%3Aclosed+milestone%3A%22Release+4.3%22[this] page.
+
+== Release 4.2 - Milestone
+
+We did not introduce any significant changes other than updating the extension to use Axon Framework release 4.2.
+
+Note that this extension currently is in a _milestone_ state.
+As such, users should consider we might introduce API changes in future releases.
+
+== Release 4.1 - Milestone
+
+* The constructors of the `TracingCommandGateway` and `TracingQueryGateway` are now protected, since issue https://github.com/AxonFramework/extension-tracing/issues/9[#9].
+This change allows users to extend these classes if necessary.
+* As off issue https://github.com/AxonFramework/extension-tracing/issues/7[#7], the spans now contain defaults operation names and tags.
+
+You can find a complete list of the changes https://github.com/AxonFramework/extension-tracing/issues?q=is%3Aclosed+milestone%3A%22Release+4.1%22[here]
+
+Note that this extension currently is in a _milestone_ state.
+As such, users should consider we might introduce API changes in future releases.
+
+== Release 4.0 - Milestone
+
+We introduced the Tracing extension with lots of help from our contributor Christophe Bouhier at Trifork.
+The tracing logic used originates from the https://opentracing.io/[Open Tracing API].
+
+You can find a complete list of all changes https://github.com/AxonFramework/extension-tracing/issues?q=is%3Aclosed+milestone%3A%22Release+4.0%22[here].
+
+It's currently in a _milestone_ state, as it doesn't trace all `QueryGateway` operations.
+As such, users should consider we might introduce API changes in future releases.

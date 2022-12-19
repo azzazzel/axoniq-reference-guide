@@ -1,0 +1,14 @@
+name: lagacy_ref_gute
+title: Axon Legacy Reference Guide
+version: 4.6
+start_page: README.adoc
+
+asciidoc:
+  attributes:
+    component_description: The Legacy Axon Reference Guide
+    type: reference
+    group: product
+
+
+nav:
+  - modules/ROOT/nav.adoc

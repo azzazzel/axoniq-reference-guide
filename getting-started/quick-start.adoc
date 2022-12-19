@@ -1,0 +1,79 @@
+= Quick Start
+
+Axon provides a _*Quick Start Toolkit*_ to familarize yourself with the setup required for Axon Framework and Axon Server SE (Standard Edition).
+
+The only pre-requisite to run the Quick Start is to have a Java 8+ JRE in your system.
+
+== Quick Start Toolkit Download
+
+The Quick Start Toolkit package is available for download at the following location -> https://axoniq.io/download.
+
+This package contains,
+
+* Axon Framework Binaries
+* Axon Server Standard Edition
+* Gift card sample application - Demo application designed to show various aspects of the platform
+* Getting started guide
+
+== Running the Quick Start (Java 9+)
+
+. Unzip `AxonQuickStart-VERSION.zip`
+. Run the xref:../axon-server-introduction.adoc[Axon Server]: `$ java -jar AxonServer/axonserver-VERSION.jar`
+. Axon Server web dashboard should be available here http://localhost:8024/[`+http://localhost:8024/+`]
+. Run the demo application: `$ cd giftcard-demo && ./mvnw spring-boot:run`
+. Demo application should be available here http://localhost:8080/[`+http://localhost:8080/+`]
+. Explore the `README.md`
+
+== Running the Quick Start on Java 8
+
+The Quick Start Demo app can also run on Java 8 with a small change in the `pom.xml` file:
+
+. From the extracted folder, open `giftcard-demo\pom.xml` with your favourite editor
+. Replace `<java.version>11</java.version>` occurrency with `<java.version>1.8</java.version>`
+. Find the `maven-compiler-plugin` plugin block
+. Replace `<release>${java.version}</release>` with `<source>${java.version}</source> <target>${java.version}</target>`
+. Run the demo application: `$ cd giftcard-demo && ./mvnw spring-boot:run`
+
+== Resources
+
+=== Axon Framework - Video Tutorials
+
+The following 5-part video tutorial offers a quick start guided path to understand Axon Framework.
+
+|===
+| Tutorial Name | Purpose
+
+| https://www.youtube.com/watch?v=tqn9p8Duy54[Part - 1]
+| Structure of an Axon Framework Application
+
+| https://www.youtube.com/watch?v=vnCxjWZrrk0[Part - 2]
+| Core API development
+
+| https://www.youtube.com/watch?v=7oy4w5THFEU[Part - 3]
+| Command Model of the Application
+
+| https://www.youtube.com/watch?v=jS1vfc5EohM[Part - 4]
+| Query Model of the Application
+
+| https://www.youtube.com/watch?v=lxonQnu1txQ[Part - 5]
+| Connecting the UI
+|===
+
+=== Axon Server
+
+We recommend following the https://www.axoniq.io/training/axon-server-training[Axon Server training] which is an easy way to get familiar with all aspects of it.
+The training is free and is given periodically.
+
+If you are looking for a fast way to get Axon Server up and running and get familiar with it through a hands-on approach,  https://axoniq.io/blog-overview/running-axon-server[this blog by Bert Laverman] is a great way to start.
+
+=== Intro to Event-Driven Microservices
+
+AxonIQ provides an https://www.axoniq.io/training/intro-to-event-driven-microservices[Intro to Event-Driven Microservices using DDD, CQRS & Event Sourcing].
+It's given periodically and is free to attend.
+During the introduction, you will be brought up to speed on topics such as DDD, CQRS, Event Sourcing and other concepts related to the Axon stack.
+
+=== Implementing Event-Driven Systems
+
+AxonIQ provides a training which will get you fully familiar with everything around Axon Framework and Axon Server: https://www.axoniq.io/training/axon-training[Implementing Event-Driven Systems using DDD, CQRS and Event Sourcing].
+It provides a more hands-on approach complete with instructor-led content and labs.
+This program is intended to deepen your knowledge concerning the concepts of Event-Driven systems, DDD, CQRS and how Axon supports this journey.

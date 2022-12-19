@@ -1,0 +1,13 @@
+= Release Notes
+
+This section details out all the release notes for the Major/Minor versions released up to date for both the Axon Framework and Axon Server.
+
+|===
+| Section |
+
+| link:rn-axon-framework/[Axon Framework]
+| Release notes for all Major/Minor versions of the Axon Framework
+
+| link:rn-axon-server/[Axon Server]
+| Release notes for all Major/Minor versions of the Axon Server
+|===

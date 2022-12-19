@@ -1,0 +1,38 @@
+= Major Releases
+
+This page notes all enhancements and features that we have introduced to our major releases of the Axon Reactor Extension.
+
+== Release 4.6
+
+If you're curious about the dependency upgrades made in this release we refer to https://github.com/AxonFramework/extension-reactor/releases/tag/axon-reactor-4.6.0[this] page.
+
+=== Features
+
+* Streaming query support https://github.com/AxonFramework/extension-reactor/pull/78[#78]
+* Support reactive query handlers and Flux/Mono query results https://github.com/AxonFramework/extension-reactor/issues/70[#70]
+* Streaming query - (Flux as Query handler return type) https://github.com/AxonFramework/extension-reactor/issues/3[#3]
+
+=== Enhancements
+
+* Splitted builds into pr and not pr, added ghactions to dependabot and other minors https://github.com/AxonFramework/extension-reactor/pull/56[#56]
+
+=== Contributors
+
+We'd like to thank all the contributors who worked on this release!
+
+* https://github.com/lfgcampos[@lfgcampos]
+* https://github.com/schananas[@schananas]
+
+== Release 4.5
+
+* We introduce dependabot to this project in issue https://github.com/AxonFramework/extension-reactor/pull/10[#10].
+* We added automatic release note construction through Git Workflow in issue https://github.com/AxonFramework/extension-reactor/pull/25[#25].
+
+All changes made can be found in the https://github.com/AxonFramework/extension-reactor/releases/tag/axon-reactor-4.5[release notes].
+
+== Release 4.4
+
+We combined release 4.4.2 of Axon Framework with the introduction of the new Reactor Extension.
+This extension provides gateway implementations that utilize `Mono` and `Flux` from https://projectreactor.io/[Project Reactor].
+
+We introduced this extension to support a more reactive programming style when using Axon's outer layer through the `CommandGatewy`, `EventGateway` and `QueryGateway`.

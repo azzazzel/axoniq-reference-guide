@@ -1,0 +1,34 @@
+= Axon Mongo Extension
+
+The release notes section for the Axon Mongo Extension for all major/minor releases.
+
+|===
+| Release Type | Version
+
+| _*Major*_
+| link:rn-mongo-major-releases.md#release-46[4.6]
+
+|
+| link:rn-mongo-major-releases.md#release-45[4.5]
+
+|
+| link:rn-mongo-major-releases.md#release-44[4.4]
+
+|
+| link:rn-mongo-major-releases.md#release-43[4.3]
+
+|
+| link:rn-mongo-major-releases.md#release-42[4.2]
+
+|
+| link:rn-mongo-major-releases.md#release-41[4.1]
+
+|
+| link:rn-mongo-major-releases.md#release-40[4.0]
+
+| _*Minor*_
+| link:rn-mongo-minor-releases.md#release-41[4.1]
+
+|
+| link:rn-mongo-minor-releases.md#release-40[4.0]
+|===

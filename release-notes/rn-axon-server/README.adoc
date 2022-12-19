@@ -1,0 +1,61 @@
+= Axon Server
+
+The release notes section for the Axon Server for all major/minor releases.
+
+|===
+| Release Type | Version
+
+| _*Major*_
+| link:rn-as-major-releases.md#release-4.6.0[4.6]
+
+|
+| link:rn-as-major-releases.md#release-4.5[4.5]
+
+|
+| link:rn-as-major-releases.md#release-4.4[4.4]
+
+|
+| link:rn-as-major-releases.md#release-4.3[4.3]
+
+|
+| link:rn-as-major-releases.md#release-4.2[4.2]
+
+|
+| link:rn-as-major-releases.md#release-4.1[4.1]
+
+| _*Minor (Standard Edition)*_
+| link:rn-asse-minor-releases.md#release-4.6[4.6]
+
+|
+| link:rn-asse-minor-releases.md#release-4.5[4.5]
+
+|
+| link:rn-asse-minor-releases.md#release-4.4[4.4]
+
+|
+| link:rn-asse-minor-releases.md#release-4.3[4.3]
+
+|
+| link:rn-asse-minor-releases.md#release-4.2[4.2]
+
+|
+| link:rn-asse-minor-releases.md#release-4.1[4.1]
+
+| _*Minor (Enterprise Edition)*_
+| link:rn-as-minor-releases.md#release-4.6[4.6]
+
+|
+| link:rn-as-minor-releases.md#release-4.5[4.5]
+
+|
+| link:rn-as-minor-releases.md#release-4.4[4.4]
+
+|
+| link:rn-as-minor-releases.md#release-4.3[4.3]
+
+|
+| link:rn-as-minor-releases.md#release-4.2[4.2]
+
+|
+| link:rn-as-minor-releases.md#release-4.1[4.1]
+|===

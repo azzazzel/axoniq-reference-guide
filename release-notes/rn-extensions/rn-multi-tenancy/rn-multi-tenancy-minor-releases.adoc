@@ -1,0 +1,45 @@
+= Minor Releases
+
+This page notes all enhancements and features that we have introduced to our major releases of the Axon Multi-Tenancy Extension.
+
+== Release 4.6
+
+=== Release 4.6.2
+
+==== Bug Fixes
+
+* Resolve tenant outside UoW https://github.com/AxonFramework/extension-multitenancy/pull/39[#39]
+
+==== Dependency Upgrade
+
+* Bump mockito.version from 4.8.0 to 4.8.1 https://github.com/AxonFramework/extension-multitenancy/pull/38[#38]
+* Bump spring.boot.version from 2.7.4 to 2.7.5 https://github.com/AxonFramework/extension-multitenancy/pull/37[#37]
+
+==== Contributors
+
+We'd like to thank all the contributors who worked on this release!
+
+* https://github.com/schananas[@schananas]
+
+=== Release 4.6.1
+
+==== Bug Fixes
+
+* Not resolving Tenant outside UoW https://github.com/AxonFramework/extension-multitenancy/pull/33[#33]
+* Moved TenantConfiguration to multitenancy module https://github.com/AxonFramework/extension-multitenancy/pull/28[#28]
+
+==== Dependency Upgrade
+
+* Bump projectreactor.version from 3.4.23 to 3.4.24 https://github.com/AxonFramework/extension-multitenancy/pull/35[#35]
+* Bump axon.version from 4.6.0 to 4.6.1 https://github.com/AxonFramework/extension-multitenancy/pull/34[#34]
+* Bump actions/setup-java from 3.5.0 to 3.5.1 https://github.com/AxonFramework/extension-multitenancy/pull/32[#32]
+* Bump spring.boot.version from 2.7.3 to 2.7.4 https://github.com/AxonFramework/extension-multitenancy/pull/31[#31]
+* Bump junit-jupiter from 5.9.0 to 5.9.1 https://github.com/AxonFramework/extension-multitenancy/pull/29[#29]
+* Bump spring.web.version from 5.3.9 to 5.3.22 https://github.com/AxonFramework/extension-multitenancy/pull/11[#11]
+
+==== Contributors
+
+We'd like to thank all the contributors who worked on this release!
+
+* https://github.com/YvonneCeelie[@YvonneCeelie]
+* https://github.com/schananas[@schananas]

@@ -1,0 +1,15 @@
+= Docker / K8s
+
+Axon provides support for Axon Server SE/EE to be run as Docker images utilizing plain Docker images / Docker Compose or larger-scale infrastructural products such as Kubernetes, Cloud-Foundry or Red Hat OpenShift.
+
+|===
+| Version |
+
+| xref:./axon-server-se.adoc[Axon Server SE]
+| Setup for Axon Server SE using Docker/Docker Compose and Kubernetes
+
+| xref:./axon-server-ee.adoc[Axon Server EE]
+| Setup for Axon Server EE using Docker/Docker Compose and Kubernetes
+|===
+
+Axon provides https://github.com/AxonIQ/running-axon-server/tree/master/2-docker/1-docker-se[a github repo] to help get started with using Docker/K8s for Axon Server SE/EE.

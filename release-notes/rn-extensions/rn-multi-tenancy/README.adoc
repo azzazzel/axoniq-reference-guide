@@ -1,0 +1,13 @@
+= Axon Multi-Tenancy Extension
+
+The release notes section for the Axon Multi-Tenancy Extension for all major/minor releases.
+
+|===
+| Release Type | Version
+
+| _*Major*_
+| link:rn-multi-tenancy-major-releases.md#release-46[4.6]
+
+| _*Minor*_
+| link:rn-multi-tenancy-minor-releases.md#release-46[4.6]
+|===

@@ -1,0 +1,19 @@
+= Axon Kafka Extension
+
+The release notes section for the Axon Kafka Extension for all major/minor releases.
+
+|===
+| Release Type | Version
+
+| _*Major*_
+| link:rn-kafka-major-releases.md#release-46[4.6]
+
+|
+| link:rn-kafka-major-releases.md#release-45[4.5]
+
+|
+| link:rn-kafka-major-releases.md#release-40[4.0]
+
+| _*Minor*_
+| link:rn-kafka-minor-releases.md#release-45[4.5]
+|===

@@ -1,0 +1,28 @@
+= Axon AMQP Extension
+
+The release notes section for the Axon AMQP Extension for all major/minor releases.
+
+|===
+| Release Type | Version
+
+| _*Major*_
+| link:rn-amqp-major-releases.md#release-46[4.6]
+
+|
+| link:rn-amqp-major-releases.md#release-45[4.5]
+
+|
+| link:rn-amqp-major-releases.md#release-44[4.4]
+
+|
+| link:rn-amqp-major-releases.md#release-43[4.3]
+
+|
+| link:rn-amqp-major-releases.md#release-42[4.2]
+
+|
+| link:rn-amqp-major-releases.md#release-41[4.1]
+
+|
+| link:rn-amqp-major-releases.md#release-40[4.0]
+|===

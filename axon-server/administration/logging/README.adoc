@@ -1,0 +1,10 @@
+= Logging
+
+The logging section of the reference guide addresses the configuration, operational and maintenance aspects of Axon Server Logging (Axon Server SE/EE).
+
+|===
+| Topic | Purpose
+
+| xref:./logging-format.adoc[Logging format]
+| Configuration of logging format
+|===
